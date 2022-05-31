@@ -1,0 +1,15 @@
+{
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "solargraph.useBundler": true,
+  "suggest.noselect": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "tupescript.tsx",
+    "graphql"
+  ]
+}

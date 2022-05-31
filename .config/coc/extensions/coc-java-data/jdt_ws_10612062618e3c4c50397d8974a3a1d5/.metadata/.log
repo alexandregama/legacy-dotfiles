@@ -1,0 +1,2856 @@
+!SESSION 2022-05-10 18:04:50.845 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.609
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.761
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.785
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.786
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.897
+!MESSAGE Default VM Install changed from  null to com.oracle.java.jdk-/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.920
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.921
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.924
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.936
+!MESSAGE Wait for AutoBuildOffJob end 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.936
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.937
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.938
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.938
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:52.949
+!MESSAGE Started org.eclipse.buildship.core 10ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:53.906
+!MESSAGE LoadingGradleVersionJob finished 956ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:53.917
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:53.926
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:53.996
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:54.423
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:56.306
+!MESSAGE Workspace initialized in 2399ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:56.437
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:56.438
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:56.445
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:56.446
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.154
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.593
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.594
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.601
+!MESSAGE Validated 1. Took 404 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.629
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.673
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.682
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:04:57.684
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:05:25.989
+!MESSAGE >> document/didClose
+!SESSION 2022-05-10 18:07:01.039 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-10 18:07:01.619
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:01.973
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.134
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.166
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.168
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.184
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.185
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.190
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.190
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.838
+!MESSAGE ProjectRegistryRefreshJob finished 648ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.839
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.851
+!MESSAGE Started org.eclipse.buildship.core 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.864
+!MESSAGE LoadingGradleVersionJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:02.886
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.092
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.122
+!MESSAGE Workspace initialized in 256ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.146
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.147
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.156
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:03.157
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.219
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.598
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.599
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.602
+!MESSAGE Validated 1. Took 343 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.621
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.641
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.643
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:04.644
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:05.036
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:05.040
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:05.048
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:05.049
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:10.495
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.415
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.459
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.460
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.471
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.479
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.480
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.921
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.921
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.946
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.946
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.946
+!MESSAGE Validated 2. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:11.976
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:14.183
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:14.806
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.342
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.544
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.545
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.551
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.551
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.554
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.978
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.978
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.989
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.989
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:16.990
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.011
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.011
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.015
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.021
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.372
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.384
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.385
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.448
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.466
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.467
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.481
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.481
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.482
+!MESSAGE Validated 2. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.484
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.506
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.507
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.507
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.541
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.590
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.591
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.594
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:17.599
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:18.022
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:18.023
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:18.032
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:18.033
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:18.033
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.606
+!MESSAGE Completion request cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.623
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.623
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.632
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.633
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.635
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.695
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.936
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.946
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.946
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.948
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:22.954
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.143
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.153
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.153
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.159
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.214
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.300
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.308
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.309
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.311
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.311
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.314
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.319
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.332
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.333
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.334
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.336
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.337
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.339
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.344
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.346
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.346
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.347
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.349
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.354
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.354
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.355
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.356
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.786
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.787
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.797
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.798
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.798
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.829
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.830
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.832
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.833
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:23.837
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.131
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.132
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.134
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.134
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.138
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.571
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.572
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.583
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.583
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.584
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.613
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.615
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.616
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.620
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.686
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:24.691
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:25.047
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:25.048
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:25.057
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:25.058
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:25.058
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.405
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.408
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.411
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.412
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.416
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.631
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.632
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.634
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.639
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.648
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.650
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.650
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.984
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.984
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.986
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.987
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:26.990
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.037
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.041
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.413
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.413
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.427
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.427
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.428
+!MESSAGE Validated 2. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.547
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.553
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.577
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.593
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.594
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.646
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.647
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.649
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.654
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.655
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:27.656
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:28.079
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:28.080
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:28.090
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:28.090
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:28.091
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:29.628
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:29.629
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:29.632
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:29.633
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:29.637
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.059
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.060
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.067
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.067
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.067
+!MESSAGE Validated 2. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.831
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.832
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.834
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:30.840
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.123
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.140
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.141
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.324
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.325
+!MESSAGE 4 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.337
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.338
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.338
+!MESSAGE Validated 2. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.473
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.474
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.478
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.478
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.536
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.963
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.964
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.972
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.972
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:31.972
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:33.653
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.154
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.162
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.315
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.686
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.741
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.742
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.750
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.750
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:36.750
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:37.635
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:44.831
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.507
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.777
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.778
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.782
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.783
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:46.787
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:47.252
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:47.252
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:47.261
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:47.261
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:47.262
+!MESSAGE Validated 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:51.865
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:52.892
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:52.893
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:52.898
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:52.899
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:52.902
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.317
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.317
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.323
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.323
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.324
+!MESSAGE Validated 2. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.770
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.771
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.773
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.780
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.791
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.792
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:53.793
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.206
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.207
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.215
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.216
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.216
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.880
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.881
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.883
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.883
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:54.887
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:55.299
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:55.300
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:55.306
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:55.306
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:55.306
+!MESSAGE Validated 2. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.435
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.436
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.439
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.444
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.857
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.857
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.864
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.865
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:56.865
+!MESSAGE Validated 2. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:57.041
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:57.048
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:57.048
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:57.275
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:07:57.524
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.096
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.593
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.594
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.617
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.618
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.627
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.628
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.632
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.633
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:10.655
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:11.079
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:11.081
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:11.087
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:11.087
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:11.088
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.431
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.432
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.437
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.438
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.495
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.924
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.924
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.933
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.934
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:14.934
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:15.648
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:15.650
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:15.654
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:15.655
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:15.658
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.083
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.083
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.091
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.091
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.092
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.302
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.304
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.308
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.309
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.362
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.789
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.790
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.798
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.798
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:16.798
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:18.501
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:18.522
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:18.522
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:22.633
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:22.633
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:22.642
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:22.643
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:22.689
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.047
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.113
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.113
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.121
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.122
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:23.122
+!MESSAGE Validated 2. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.570
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.822
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.823
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.827
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.828
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:29.886
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.362
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.362
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.371
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.372
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.372
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.954
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.966
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:30.967
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:33.928
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:33.928
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:33.933
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:33.939
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:33.940
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.328
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.349
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.350
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.356
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.357
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:34.357
+!MESSAGE Validated 2. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.319
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.530
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.531
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.536
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.537
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.539
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.964
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.965
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.974
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.974
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:37.974
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.337
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.342
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.488
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.910
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.910
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.919
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.920
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:40.920
+!MESSAGE Validated 2. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:45.818
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.072
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.833
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.834
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.839
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.842
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:47.842
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.225
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.254
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.255
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.261
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.262
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:08:48.262
+!MESSAGE Validated 2. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:08.256
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:09.980
+!MESSAGE >> document/didClose
+!SESSION 2022-05-10 18:26:16.003 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-10 18:26:16.575
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:16.898
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.051
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.086
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.087
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.105
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.105
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.111
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.112
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.427
+!MESSAGE ProjectRegistryRefreshJob finished 314ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.427
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.438
+!MESSAGE Started org.eclipse.buildship.core 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.451
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.470
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.789
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.887
+!MESSAGE Workspace initialized in 434ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.903
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.904
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.913
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:17.914
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.135
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.519
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.519
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.522
+!MESSAGE Validated 1. Took 355 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.544
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.564
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.566
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:19.568
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:27.494
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:27.498
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:27.505
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:27.506
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:27.955
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:26:54.233
+!MESSAGE >> document/didClose
+!SESSION 2022-05-10 18:29:26.030 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-10 18:29:26.628
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:26.965
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.115
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.151
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.152
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.167
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.167
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.173
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.173
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.524
+!MESSAGE ProjectRegistryRefreshJob finished 351ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.524
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.537
+!MESSAGE Started org.eclipse.buildship.core 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.548
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.569
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.882
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:27.984
+!MESSAGE Workspace initialized in 433ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:28.006
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:28.007
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:28.022
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:28.023
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:29:28.479
+!MESSAGE >> document/didClose
+!SESSION 2022-05-10 18:34:53.222 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-10 18:34:53.796
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.115
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.265
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.299
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.300
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.316
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.317
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.321
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.322
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.648
+!MESSAGE ProjectRegistryRefreshJob finished 326ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.648
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.663
+!MESSAGE Started org.eclipse.buildship.core 14ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.676
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:54.695
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.060
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.171
+!MESSAGE Workspace initialized in 494ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.191
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.192
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.201
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:55.203
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.214
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.588
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.588
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.592
+!MESSAGE Validated 1. Took 339 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.608
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.632
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.634
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:56.636
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:57.765
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:57.775
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:34:57.778
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:35:15.221
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 18:35:18.899
+!MESSAGE >> document/didClose
+!SESSION 2022-05-10 19:26:18.374 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-10 19:26:19.032
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.403
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.577
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.610
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.612
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.627
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.628
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.633
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:19.634
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.016
+!MESSAGE ProjectRegistryRefreshJob finished 382ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.017
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.039
+!MESSAGE Started org.eclipse.buildship.core 23ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.050
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.076
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.456
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.532
+!MESSAGE Workspace initialized in 480ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.554
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.555
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.573
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:20.574
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:21.772
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.209
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.209
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.213
+!MESSAGE Validated 1. Took 403 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.232
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.267
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.270
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.272
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.511
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.544
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.545
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:22.825
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:26.833
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:26.970
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:26.970
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:26.984
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.008
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.009
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.432
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.432
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.450
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.450
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:27.450
+!MESSAGE Validated 2. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.505
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.508
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.518
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.518
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.524
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.946
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.947
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.957
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.957
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:32.958
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.188
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.191
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.198
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.199
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.255
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.696
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.697
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.712
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.713
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:35.713
+!MESSAGE Validated 2. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:40.977
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:52.043
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:26:54.590
+!MESSAGE >> document/references
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:05.465
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:49.080
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:52.211
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:52.315
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:52.888
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.221
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.229
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.230
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.287
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.715
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.715
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.724
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.725
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.726
+!MESSAGE Validated 2. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.792
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.793
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.798
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.799
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.802
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.997
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:53.998
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.000
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.000
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.004
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.434
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.434
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.444
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.445
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:54.445
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.027
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.027
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.030
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.062
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.084
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.105
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.106
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.527
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.527
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.536
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.536
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:58.537
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:59.828
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:27:59.866
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.279
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.710
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.710
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.719
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.720
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:00.720
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:01.740
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:01.785
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.325
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.748
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.748
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.758
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.758
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:02.759
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.006
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.007
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.012
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.013
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.020
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.445
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.445
+!MESSAGE 3 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.454
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.454
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:41.454
+!MESSAGE Validated 2. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:42.901
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:42.903
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:42.907
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:42.908
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:42.969
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:43.391
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:43.391
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:43.406
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:43.407
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:43.407
+!MESSAGE Validated 2. Took 33 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.157
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.158
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.161
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.167
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.267
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.269
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.270
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.587
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.587
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.601
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.601
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:44.602
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:49.791
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:49.792
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:49.794
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:49.794
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:49.803
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:50.235
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:50.235
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:50.250
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:50.251
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:50.252
+!MESSAGE Validated 2. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:28:55.516
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:06.644
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:06.645
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:06.649
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:06.650
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:06.659
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:07.092
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:07.093
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:07.103
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:07.104
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:07.104
+!MESSAGE Validated 2. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.004
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.005
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.009
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.010
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.017
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.445
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.446
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.455
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.456
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:08.456
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:09.622
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:09.659
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:15.733
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:15.773
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:15.935
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.364
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.365
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.374
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.374
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.374
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.937
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:16.969
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:20.181
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.331
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.332
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.336
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.337
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.343
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.764
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.765
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.774
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.774
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:21.774
+!MESSAGE Validated 2. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.168
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.169
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.174
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.175
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.182
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.612
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.613
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.623
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.623
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:26.623
+!MESSAGE Validated 2. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:28.111
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:28.139
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:28.745
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:29.612
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:29.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:29.616
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:29.617
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:29.624
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:30.049
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:30.049
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:30.059
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:30.059
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:30.060
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.143
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.146
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.151
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.152
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.158
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.585
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.586
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.594
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.595
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.595
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.737
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.739
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.743
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.743
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:37.751
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.176
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.176
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.186
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.187
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.187
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.488
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.490
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.495
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.496
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.502
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.924
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.924
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.933
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.933
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:38.934
+!MESSAGE Validated 2. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.177
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.216
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.415
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.842
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.842
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.854
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.854
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:29:40.854
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:22.144
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:22.171
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:23.023
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:29.807
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:37.273
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:30:49.354
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:31:25.811
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:33:45.912
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.377
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.378
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.381
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.389
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.398
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.398
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.399
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.817
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.817
+!MESSAGE 1 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.825
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.825
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:22.825
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:24.899
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:24.900
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:24.901
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:24.902
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:24.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:25.385
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:25.386
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:25.395
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:25.395
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:25.396
+!MESSAGE Validated 2. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:30.704
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.349
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.349
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.353
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.354
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.361
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.781
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.781
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.794
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.794
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:38.794
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:39.891
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:39.893
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:39.899
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:39.899
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:39.907
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:40.329
+!MESSAGE begin problem for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:40.330
+!MESSAGE 2 problems reported for /DataStructureTest.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:40.338
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:40.339
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:40.339
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 19:34:45.060
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-10 20:24:30.186
+!MESSAGE >> document/documentHighlight
+!SESSION 2022-05-11 10:41:06.455 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-11 10:41:07.256
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:07.851
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.068
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.103
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.104
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.118
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.119
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.124
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.125
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.126
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.127
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.151
+!MESSAGE Started org.eclipse.buildship.core 23ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.163
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.188
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:08.574
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:09.328
+!MESSAGE Workspace initialized in 1163ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:09.340
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:09.342
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:09.356
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:09.357
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:10.803
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.174
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.175
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.179
+!MESSAGE Validated 1. Took 339 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.197
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.225
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.227
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:11.229
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:20.839
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:20.844
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:20.858
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:20.859
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:20.912
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:21.307
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:41:21.312
+!MESSAGE >> document/didClose
+!SESSION 2022-05-11 10:42:00.367 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-11 10:42:00.959
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2022-05-11 10:42:37.253 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_10612062618e3c4c50397d8974a3a1d5
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-11 10:42:37.862
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.228
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.399
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.434
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.436
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.453
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.454
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.460
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.461
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.812
+!MESSAGE ProjectRegistryRefreshJob finished 351ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.812
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.825
+!MESSAGE Started org.eclipse.buildship.core 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.838
+!MESSAGE LoadingGradleVersionJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:38.861
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.190
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.298
+!MESSAGE Workspace initialized in 459ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.320
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.321
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.330
+!MESSAGE >> New configuration: {java={enabled=true, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, runtimes=[]}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={updateSnapshots=false, downloadSources=false}, referencesCodeLens={enabled=true}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git]}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:39.331
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.408
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.742
+!MESSAGE begin problem for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.743
+!MESSAGE 0 problems reported for /DataStructure.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.746
+!MESSAGE Validated 1. Took 291 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.767
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.791
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.794
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:42:40.795
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:12.794
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:12.797
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:12.806
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:12.807
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:13.438
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:13.439
+!MESSAGE >> codeLens/resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-11 10:43:14.115
+!MESSAGE >> document/didClose

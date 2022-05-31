@@ -1,0 +1,63 @@
+!SESSION 2022-05-24 17:51:19.691 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_BR
+Command-line arguments:  -data /Users/alexandregama/.config/coc/extensions/coc-java-data/jdt_ws_f29dd82365c68266b9d78f5a79998f85
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:20.992
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.191
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.223
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.224
+!MESSAGE Initializing Java Language Server 1.12.0.202205060359
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.348
+!MESSAGE Default VM Install changed from  null to com.amazon.corretto.17-/Users/alexandregama/Library/Java/JavaVirtualMachines/corretto-17.0.3/Contents/Home
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.368
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.369
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.374
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.388
+!MESSAGE Wait for AutoBuildOffJob end 14ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.389
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.390
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.390
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.391
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.413
+!MESSAGE Started org.eclipse.buildship.core 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.425
+!MESSAGE LoadingGradleVersionJob finished 11ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.439
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.447
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.507
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-05-24 17:51:21.988
+!MESSAGE Importing Maven project(s)

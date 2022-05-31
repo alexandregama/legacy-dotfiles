@@ -1,0 +1,83 @@
+alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias editalias="sublime ~/.zsh_aliases"
+
+#Gradle
+alias gralde="gradle"
+alias geclipse="gradle clean cleanEclipse eclipse"
+
+
+#Github
+alias git='hub'
+alias ti='git'
+alias it='git'
+alias gti='git'
+alias gitf='git ph -f'
+alias amend='git ci --amend --no-edit'
+alias gt="cd ~/github && ll"
+alias dev="cd ~/dev && ll"
+alias gitpr="git browse"
+alias gitf="git df --cached"
+
+#Utils
+alias ls='ls -FG'
+alias ll='ls -lh'
+alias la='ls -ah'
+alias lla='ls -lah'
+alias shutdown="sudo shutdown -P 0"
+alias u="cd ../"
+alias uu="cd ../../"
+alias uuu="cd ../../../"
+alias uuuu="cd ../../../../"
+alias uuuuu="cd ../../../../../"
+alias uuuuuu="cd ../../../../../../"
+alias rehash="source ~/.zshrc"
+alias reahsh=rehash
+alias rehahs=rehash
+alias s.="sublime ."
+alias desk="clear && cd ~/Desktop && ll"
+alias pl="ps aux | grep"
+
+
+# Bundler
+alias b="bundle"
+alias bi="b install --path vendor"
+alias bu="b update"
+alias be="b exec"
+
+# sousmile
+
+alias startpg="pg_ctl -D /usr/local/var/postgres start"
+alias stoppg="pg_ctl -D /usr/local/var/postgres stop"
+alias startmysql="mysql.server start"
+
+
+alias ssfront="cd /Users/sousmile/github/sousmile-frontend-platform"
+alias ss3dapi="cd /Users/sousmile/github/3d-viewer-api"
+alias ss3dintegration="cd /Users/sousmile/github/3d-viewer-integration"
+alias ssimage="cd /Users/sousmile/github/image-upload"
+alias bexec="bundle exec rails s"
+alias dc="docker-compose"
+
+#alias killapi="kill -9 $(cat /Users/sousmile/github/sousmile-platform-api/tmp/pids/server.pid)"
+
+alias rconsole="bundle exec rails c"
+alias master="git fupum"
+alias reset="git reset"
+alias st="git st"
+alias ci="git ci"
+alias ph="git ph"
+alias stash="git stash"
+alias pop="git stash pop"
+alias deploy="git fupum && git pull heroku master && git push heroku master"
+
+alias dbpass="echo 'p86b24ecea4584a5accbb95cb2ec54e683de9f954716518ab0489d2c3a924fe12' | pbcopy"
+alias dumpprod="dbpass && time pg_dump --exclude-table='*attribution*' --exclude-table='*funnel*' --exclude-table='ga_*' --exclude-table='segment_sessions' --exclude-table='anonymous_*' --exclude-table='class_*' --exclude-table='customer_addresses_backup' --exclude-table='customers_expansion' --exclude-table='*2020*' --exclude-table='old_*' -h sousmile-admin-api-prod.cmth7vtomvrt.us-east-1.rds.amazonaws.com -Fc -U ucf87hak73ug0r -d da3401fekq80ke -n public > dumpprod.sql && say 'o dump foi concluido'"
+
+alias dbpasslocal="echo 'postgres' | pbcopy"
+alias dumprestore="dbpasslocal && time pg_restore -v -O -x -c -Fc --if-exists --username=postgres --host=127.0.0.1 --port=5432 -npublic -d sousmile-platform-api-development dumpprod.sql && say 'o dump foi restaurado'"
+
+alias dumps="ls -lah dumppro*"
+
+alias dbsouparceiropass="echo 'eb24e1d34921588554d7d0e146fd01992a39b583f6d60bf26cb881c5921e0f3c' | pbcopy"
+alias dumpsouparceiro="dbsouparceiropass && pg_dump -h ec2-52-44-31-100.compute-1.amazonaws.com -Fc -U xwblbhxevowkfs -d d9coh12dl5qol5 -n public > dumpsouparceiro.sql && say 'o dump foi concluido'"
+alias dumpsouparceirorestore="be rake db:drop && be rake db:create && dbpasslocal && time pg_restore -v -O -x -c -Fc --if-exists --username=postgres --host=127.0.0.1 --port=5432 -npublic -d souparceiro-integration-development dumpsouparceiro.sql && say 'o dump foi restaurado'"
